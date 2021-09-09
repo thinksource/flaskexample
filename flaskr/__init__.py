@@ -28,7 +28,7 @@ def create_app(test_config=None):
 
     @app.route("/hello")
     def hello():
-        return "Hello, World!"
+        return "sample"
 
     # register the database commands
     from flaskr import db
